@@ -1,18 +1,1 @@
 
-.top_banner
-{
-    height: 80px;
-    background-color: rgb(255, 245, 0);
-    display: block;
-}
-.top_banner img
-{
-    padding: 10px 0 0 0;
-}
-.top_banner h4
-{
-    box-sizing:border-box;
-    display:block;
-    font-size:18px;
-    font-family: 'Fira Sans', sans-serif;
-}

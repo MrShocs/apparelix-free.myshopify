@@ -10,32 +10,30 @@
 }
 .top_banner img
 {
-    padding: 1.2% 0 0 2%;
-    float: left;
-}
-.top_banner_text
-{
-    font-size:27px;
-    padding: 1% 0 0 0;
-    font-family: 'Fira Sans', sans-serif;
-    width: 85%;
+    display: inline-block;
+    padding: 1.3% 0 0 2%;
 }
 h4
 {
-    padding: 0 0 0 4%;
+    display: inline-block;
     display: inline;
-
+    font-size:27px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 0 0 1%;
 }
 h5
 {
-    padding: 0 0 0 2%;
+    display: inline-block;
     display: inline;
+    font-size:27px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 0 0 1%;
+
 }
 .btn
 {
-    display: inline;
+    display: inline-block;
     border: solid;
-    margin: 0 0 0 90%;
     background-color:rgb(34, 34, 34);
     color: white;
     border-color: black;
@@ -43,6 +41,7 @@ h5
     font-size:15px;
     font-family:"Fira Sans", sans-serif;
     border-radius: 3px;
+    margin: 0 0 0 3%;
 }
 .btn:hover{
     background-color: rgb(255, 245, 0);
@@ -50,12 +49,16 @@ h5
     border-color: black;
 }
 
-.lower_banner
+
+
+.lower_banner img
 {
+    padding: 20px 0 0 0;
 }
-ul
+.lower_banner a:link
 {
-    display: none;
+    text-decoration: none;
+    color: #222
 }
 a:hover ul{
     display: block;
@@ -73,24 +76,77 @@ a:hover ul{
     font-size: 11px;
     text-decoration: none;
 }
+
 .menu
 {
-    display: block;
+    display: inline-block;
     color: black;
     margin: 1.5% 0 0 39%;
     letter-spacing: -0.8px;
     font-family:"Fira Sans", sans-serif;
     font-size: 15px;
 }
-.menu li ul 
+
+.menu > li
+{
+    display: inline-block;  
+    position: relative;
+    letter-spacing: -0.8px;
+
+}
+.menu >li>div
 {
     display: none;
 }
-.menu li:hover ul
+.menu>li:hover div
 {
     display: block;
 }
-.lol
+
+.menu_level
 {
-    margin: 0 0 0 20%;
+    padding: 0 20px 0  0 ;
+}
+
+.menu_level_1
+{
+    width: 145px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    display: inline-block
+}
+
+.menu_level_2
+{
+    width: 145px;
+    height: 320px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    display: inline-block
+}
+.menu_level_3
+{
+    width: 981px;
+    height: 320px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    display: inline-block;
+    position: right;
+}
+.menu_img
+{
+    margin: 0 0 50px 100px;
+}
+
+.li_text
+{
+    color: #888;
+    padding:  15px 40px 40px 14px;
+    line-height: 2;
+    font-size: 15px;
+    width: 80px;
 }

@@ -66,11 +66,13 @@ a:hover ul{
 .header_logo
 {
     margin: 0 0 0 44%;
-    display:block
+    display:block;
+    width: 300px;
 }
+
 .logo_slogan
 {
-    margin: 0 0 0 2.5%;
+    margin: 0 0 0 10%;
     display: block;
     color: #888;
     font-size: 11px;
@@ -98,11 +100,15 @@ a:hover ul{
 {
     display: none;
 }
+
 .menu>li:hover div
 {
     display: block;
 }
-
+.menu>li:hover
+{
+    text-decoration: underline; 
+}
 .menu_level
 {
     padding: 0 20px 0  0 ;
@@ -137,11 +143,10 @@ a:hover ul{
     display: inline-block;
     position: right;
 }
-.menu_img
+.menu_level_3 img
 {
-    margin: 0 0 50px 100px;
+    padding: 0 0 70px 70px;
 }
-
 .li_text
 {
     color: #888;
@@ -149,4 +154,9 @@ a:hover ul{
     line-height: 2;
     font-size: 15px;
     width: 80px;
+}
+.menu_2_level_1
+{
+    width: 80px;
+    padding: 0 0 500px 1500px;
 }

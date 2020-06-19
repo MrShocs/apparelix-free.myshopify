@@ -8,6 +8,8 @@ header
     width: 100%;
     background-color: white;
     position: fixed;
+    top: 0px;
+    
 }
 .top_banner
 {

@@ -6,13 +6,12 @@ body
 .banner_caption
 {
     margin: 250px 0 0 20px;
-    background-image: url(../pic/image2_1810x700_crop_center.jpg);
-    height: 700px;
-    background-repeat: no-repeat;
 }
 .caption_text > h2
 {
-    padding: 250px 0 0 0;
+    position: absolute;
+    bottom: 300px;
+    left: 770px;
     text-align: center;
     font: 60px/1.1em "Fira Sans",sans-serif;
     color: #222;
@@ -21,17 +20,20 @@ body
 }
 .caption_text > h3
 {
+    position: absolute;
+    bottom: 280px;
+    left: 25px;
     color: rgb(130, 130, 130);
     font-size: 15px;
     padding: 0 0 0 835px;
 }
-.pos
+.BODY_btn_1
 {
-    margin: 20px 0 0 790px;
-}
-.BODY_btn
-{
-    display: inline-block;
+    
+    position: absolute;
+    top: 690px;
+    right: 950px;
+    display:inline-block;
     border: solid;
     background-color:rgb(34, 34, 34);
     color: white;
@@ -42,17 +44,42 @@ body
     border-radius: 3px;
     padding: 10px 25px  10px 25px;
 }
-.BODY_btn:hover{
-    background-color: transparent;
-    color: black;
+.BODY_btn_1:hover{
+    transition: background 0.4s ease-in-out,border-color 0.4s ease-in-out,color 0.4s ease-in-out;
+    color:black;
+    background-color:transparent;
     border-color: black;
 }
+.BODY_btn_2
+{
+    
+    position: absolute;
+    top: 690px;
+    right: 780px;
+    display:inline-block;
+    border: solid;
+    background-color:rgb(34, 34, 34);
+    color: white;
+    border-color: black;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Fira Sans", sans-serif;
+    border-radius: 3px;
+    padding: 10px 25px  10px 25px;
+}
+.BODY_btn_2:hover{
+    transition: background 0.4s ease-in-out,border-color 0.4s ease-in-out,color 0.4s ease-in-out;
+    color:black;
+    background-color:transparent;
+    border-color: black;
+}
+
 
 .section_homepage 
 {
     
 }
-h4
+.h4_text
 {
     display: inline-block;
     font-size:27px;
@@ -63,76 +90,127 @@ h4
 {
     margin: 50px 0 0 0;
 }
-.row_level_1
+.row_levels
 {
     display: inline-block;
-    background-image: url(../pic/img01_590x700_crop_center.jpg);
-    height: 700px;
-    width: 500px;
-    margin: 0 20px 0 25px;
+    margin: 0 0 0 25px;
 }
-.row_level_2
+
+.row_text_1
 {
-    display: inline-block;
-    background-image: url(../pic/img02_590x700_crop_center.jpg);
-    height: 700px;
-    width: 500px;
-    margin: 0 0 0 140px;
-}
-.row_level_3
-{
-    display: inline-block;
-    background-image: url(../pic/img03_590x700_crop_center.jpg);
-    height: 700px;
-    width: 500px;
-    margin: 0 0 0 143px;
-}
-.row_text
-{
+    position: absolute;
+    left: 20px;
     display: inline-block;
     color: #222;
     font-size: 20px;
     margin: 600px 0 0 50px;
 }
-.row_level_3>h6
+
+.row_text_2
 {
+    position: absolute;
+    left: 650px;
+    display: inline-block;
+    color: #222;
+    font-size: 20px;
+    margin: 600px 0 0 50px;
+}
+
+.row_text_3
+{
+    position: absolute;
+    left: 1280px;
+    display: inline-block;
     color: white;
+    font-size: 20px;
+    margin: 600px 0 0 50px;
 }
-.row_level_1:hover h6
+
+
+.row_levels:hover h6
 {
     text-decoration: underline;
 }
 
-.row_level_2:hover h6
-{
-    text-decoration: underline;
-}
 
-.row_level_3:hover h6
-{
-    text-decoration: underline;
-}
+
+
+
+
 
 .center_banner
 {
-    background-image: url(../pic/image1_1810x700_crop_center.jpg);
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 1810px;
+
     margin: 70px 0 0 25px;
 }
 .center_banner>h3
 {
-    color: #fff;
-    padding: 230px 0 0 800px;
+    position: absolute;
+    top: 2100px;
+    left: 830px;
+    color:#ffff;
 }
 .center_banner>h2
 {
+    position: absolute;
+    top: 2150px;
+    left: 800px;
     font: 60px/1.1em "Fira Sans",sans-serif;
     text-align: center;
     color: #fff;
     font-size: 50px;
 }
+
+.BODY_btn_3
+{
+    
+    position: absolute;
+    top: 2270px;
+    left: 800px;
+    display:inline-block;
+    border: solid;
+    background-color:rgb(34, 34, 34);
+    color: white;
+    border-color: black;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Fira Sans", sans-serif;
+    border-radius: 3px;
+    padding: 10px 25px  10px 25px;
+}
+.BODY_btn_3:hover{
+    transition: background 0.4s ease-in-out,border-color 0.4s ease-in-out,color 0.4s ease-in-out;
+    color:black;
+    background-color:transparent;
+    border-color: black;
+}
+.BODY_btn_4
+{
+    
+    position: absolute;
+    top: 2270px;
+    left: 950px;
+    display:inline-block;
+    border: solid;
+    background-color:rgb(34, 34, 34);
+    color: white;
+    border-color: black;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Fira Sans", sans-serif;
+    border-radius: 3px;
+    padding: 10px 25px  10px 25px;
+}
+.BODY_btn_4:hover{
+    transition: background 0.4s ease-in-out,border-color 0.4s ease-in-out,color 0.4s ease-in-out;
+    color:black;
+    background-color:transparent;
+    border-color: black;
+}
+
+
+
+
 .lower_center_banner
 {
     display: inline-block;
@@ -183,6 +261,7 @@ h4
     padding: 15px 15px  15px 15px;
 }
 .lower_center_banner_btn:hover{
+    transition: background 0.4s ease-in-out,border-color 0.4s ease-in-out,color 0.4s ease-in-out;
     background-color: rgb(34, 34, 34);
     color: white;
 }

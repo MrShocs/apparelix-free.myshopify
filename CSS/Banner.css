@@ -124,7 +124,7 @@ a
 .Level_item_1
 {
     display: none;
-    width: 145px;
+    width: 125px;
     height: 150px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -134,7 +134,7 @@ a
 {
     display: none;
     width: 145px;
-    height: 320px;
+    height: 310px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     position: absolute;
@@ -161,8 +161,10 @@ a
 }
 .container_2
 {
+    position: relative;
     width: 106px ;
     display: inline-block;
+    margin-left: 100px;
 }
 .menu>li:hover ul
 {
@@ -182,19 +184,31 @@ a
 }
 .banner_row_img
 {
-    background-image: url(C:/Users/Идын/Documents/GitHub/apparelix-free.myshopify/pic/collection_bnr_1_380x240_crop_center.png);
-    height: 240px;
-    width: 380px;
     display: inline-block;
-    margin: 0 0 0 300px;
     background-repeat: no-repeat;
+    margin-left: 200px;
 
 }
-.row_banner
+.li_text_pos_1
 {
-
+    margin: 12px 0 0 10px;
+    font-size: 15px;
+}
+.li_text_pos_2
+{
+    margin: 12px 0 0 10px;
+    font-size: 17px;
 }
 .container
 {
     width: 100%;
+}
+.banner_row_img>a p 
+{
+    position: absolute;
+    font-family:"Fira Sans", sans-serif;
+    font-size: 20px;
+    bottom: 40px;
+    left: 10px;
+    width: 210px;
 }

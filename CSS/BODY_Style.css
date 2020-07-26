@@ -2,16 +2,17 @@
 body
 {
     height: 4000px;
+
 }
 .banner_caption
 {
-    margin: 250px 0 0 20px;
+    margin: 15% 0 0 1.5%;
 }
 .caption_text > h2
 {
     position: absolute;
     bottom: 300px;
-    left: 770px;
+    left: 42%;
     text-align: center;
     font: 60px/1.1em "Fira Sans",sans-serif;
     color: #222;
@@ -22,7 +23,6 @@ body
 {
     position: absolute;
     bottom: 280px;
-    left: 25px;
     color: rgb(130, 130, 130);
     font-size: 15px;
     padding: 0 0 0 835px;
@@ -51,13 +51,13 @@ body
 {
     position: absolute;
     top: 690px;
-    right: 950px;
+    right: 51%;
 }
 .btn_pos_2
 {
     position: absolute;
     top: 690px;
-    right: 780px;
+    right: 42%;
 }
 
 
@@ -79,7 +79,7 @@ body
 .row_levels
 {
     display: inline-block;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 1%;
 }
 
 .row_text_1
@@ -127,20 +127,20 @@ body
 .center_banner
 {
 
-    margin: 70px 0 0 25px;
+    margin: 3% 0 0 1.5%;
 }
 .center_banner>h3
 {
     position: absolute;
     top: 2100px;
-    left: 830px;
+    left: 45%;
     color:#ffff;
 }
 .center_banner>h2
 {
     position: absolute;
     top: 2150px;
-    left: 800px;
+    left: 43%;
     font: 60px/1.1em "Fira Sans",sans-serif;
     text-align: center;
     color: #fff;
@@ -151,13 +151,13 @@ body
 {
     position: absolute;
     top: 2270px;
-    left: 800px;
+    left: 43%;
 }
 .btn_pos_4
 {
     position: absolute;
     top: 2270px;
-    left: 950px;
+    left: 50%;
 }
 
 
@@ -231,16 +231,43 @@ body
     background-color: rgb(34, 34, 34);
     color: white;
 }
-.lower_body_items
+
+
+.product_carousel_wrap
 {
-    position: relative;
-    display: inline-block;
+    margin-TOP: 3%;
 }
-.sale
+.product_item
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 1%;
+}
+.product_name
+{
+    text-align: center;
+    
+    font: 13px/1em "Fira Sans",sans-serif;
+}
+.product_price
+{
+    text-align: center;
+    font: 13px/1em "Fira Sans",sans-serif;
+
+}
+.bade_warp>p
+{
+    font: 15px/1.1em "Fira Sans",sans-serif;
+}
+.bade_warp
 {
     position: absolute;
-    bottom: 520px;
-    left: 25px;
+    top: 20px;
+    left: 10px;
+    display: inline-block;
+}
+.sale_percent
+{
     border-color: red;
     background-color: red;
     color: white;
@@ -248,22 +275,10 @@ body
     padding: 5px;
     width: 40px;
 }
-.img_lower_banner
-{
-    margin: 0 0 0 20px;
-
-}
-.lower_body
-{
-    font: 15px/1.1em "Fira Sans",sans-serif;
-
-}
 .new
 {
-    position: absolute;
+    margin-top: 10px;
     color: white;
-    bottom: 480px;
-    left: 25px;
     border-color:#159ec9;
     background-color: #159ec9;
     color: white;
@@ -271,11 +286,10 @@ body
     padding: 5px;
     width: 40px;
 }
+
 .on_sale
 {
-    position: absolute;
-    bottom: 440px;
-    left: 25px;
+    margin-top: 10px;
     border-color: red;
     background-color: red;
     color: white;
@@ -283,11 +297,10 @@ body
     padding: 5px;
     width: 55px;
 }
+
 .Only_online
 {
-    position: absolute;
-    bottom: 400px;
-    left: 25px;
+    margin-top: 10px;
     border-color: white;
     background-color: white;
     color: black;
@@ -295,11 +308,10 @@ body
     padding: 5px;
     width: 79px;
 }
+
 .best_price
 {
-    position: absolute;
-    bottom: 360px;
-    left: 25px;
+    margin-top: 10px;
     border-color: white;
     background-color: white;
     color: #159ec9;
@@ -308,57 +320,6 @@ body
     width: 79px;
 }
 
-.new_2
-{
-    position: absolute;
-    color: white;
-    bottom: 520px;
-    left: 25px;
-    border-color:#159ec9;
-    background-color: #159ec9;
-    color: white;
-    border-radius:5px;
-    padding: 5px;
-    width: 40px;
-}
-.on_sale_2
-{
-    position: absolute;
-    bottom: 480px;
-    left: 25px;
-    border-color: red;
-    background-color: red;
-    color: white;
-    border-radius:5px;
-    padding: 5px;
-    width: 55px;
-}
-.best_price_2
-{
-    position: absolute;
-    bottom: 440px;
-    left: 25px;
-    border-color: white;
-    background-color: white;
-    color: #159ec9;
-    border-radius:5px;
-    padding: 5px;
-    width: 79px;
-}
-.lower_body>div
-{
-    margin-top: 70px;
-}
-.lower_body_items_text
-{
-    color: #373232;
-    font: 15px "Fira Sans",sans-serif;
-    padding: 0 0 0 80px;
-}
-.price
-{
-    padding-left: 35%;
-}
 .h4_text_2
 {
     display: inline-block;
